@@ -114,7 +114,7 @@ add_shortcode( 'footer_childtheme_link', 'genesis_footer_childtheme_link_shortco
  */
 function genesis_footer_childtheme_link_shortcode( $atts ) {
 
-return "SLCUtahDesign";
+return "<a href='https://slcutahdesign.com'>SLCUtahDesign</a>";
 
 }
 

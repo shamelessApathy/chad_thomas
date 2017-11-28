@@ -8,11 +8,12 @@ jQuery(function(){
         var cabin = "/wp-content/uploads/2017/11/snow_cabin.jpg";
         var silver = "/wp-content/uploads/2017/11/silver_fork.jpg";
         var bryce = "/wp-content/uploads/2017/11/bryce.jpg";
+        var slc = "/wp-content/uploads/2017/11/slc_night.jpg";
         var backstretch = jQuery('.backstretch');
         
         var picArray = [ table, cabin, silver, bryce];
         var rand = picArray[Math.floor(Math.random() * picArray.length)];
-        var string = "<img src='" + rand + "'/>";
+        var string = "<img style='width:100%;' src='" + rand + "'/>";
         backstretch.html(string);
     }
 
