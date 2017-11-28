@@ -2,6 +2,10 @@
 {
 	background-color:none !important;
 }
+.entry-content ul
+{
+margin-left:0 !important;
+}
 .display-posts-listing
 {
   padding:0;
@@ -48,7 +52,7 @@
 .trans-container
 {
   width:100%;
-  min-height:500px;
+  min-height:600px;
   background-color:rgba(0,0,0,0.5);
   margin:0 auto;
   margin-top:10px;
