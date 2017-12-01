@@ -29,6 +29,32 @@ margin-left:0 !important;
   color:#333;
   text-align:center;
 }
+.af-ul
+{
+	list-style-type:none;
+	color:white;
+}
+.af-container h4
+{
+	color:white;
+}
+.af-container p
+{
+	text-align:left;
+}
+.af-headshot
+{
+
+}
+.af-container
+{
+	width:90%;
+	height:520px;
+	border:2px solid white;
+	margin:0 auto;
+	padding:20px;
+	margin-top:10px;
+}
 .type-post
 {
   background-color:white;
